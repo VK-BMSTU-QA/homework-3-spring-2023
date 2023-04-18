@@ -9,7 +9,6 @@
 4. [Главная](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F)
 5. [Хедер](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D1%85%D0%B5%D0%B4%D0%B5%D1%80)
 6. [Футер](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D1%84%D1%83%D1%82%D0%B5%D1%80)
-
 # Общие паттерны
 
 - Как проверять поломано ли фото
@@ -17,6 +16,8 @@
     - Статус код должен быть `200`
 
 # [Cтраница товара](https://www.reazon.ru/product/57)
+
+- Название вкладки имеет формат '<название товара> - Reazon"
 ### Название товара
 ![item-title](https://user-images.githubusercontent.com/57019979/221987819-798f374a-6e14-4f9d-a2a5-9f158373fcf1.png)
  - Название помещается целиком
@@ -65,12 +66,15 @@
          - поведение аналогично блоку ["Название товара"](https://github.com/tUnknownLegend/check-list-TP/blob/Base/Base.md#%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
         
 # [Cтраница просмотра отзывов](https://www.reazon.ru/comment/43)
+
+- Название вкладки имеет формат '<название товара> - Отзывы, Reazon"
 ### Название товара
 ![item-review-description](https://user-images.githubusercontent.com/57019979/221988217-d64e579d-6ee8-4094-89af-32c29938e2d7.png)
  - Проверка поломоности фото
  - При клике на фото открывается страница товара с ссылкой вида [https://www.reazon.ru/product/[id]](https://www.reazon.ru/product/43)
 - Кнопка в корзину
     - Аналогично блоку ["Цена и добавление в корзину"](https://github.com/tUnknownLegend/check-list-TP/blob/Base/Base.md#%D1%86%D0%B5%D0%BD%D0%B0-%D0%B8-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%83)
+
 ### Отзывы
 ![read-review](https://user-images.githubusercontent.com/57019979/221988118-24507d47-40d2-495e-8895-e91eb23ae77d.png)
  - Кнопка оставить отзыв
@@ -83,12 +87,14 @@
       Проверка поломоннасти фото (???)
 
 # [Cтраница написания отзыва](https://www.reazon.ru/addcomment/214)
+
+- Название вкладки имеет формат '<название товара> - Отзывы, Reazon"
 ### Название товара
 ![item-write-review-description](https://user-images.githubusercontent.com/57019979/221988092-e0abc056-30d1-4321-b99c-d40a190695c7.png)
       - Полностью аналогичен блоку ["Название товара"](https://github.com/tUnknownLegend/TP-QA-HW-1/blob/Base/Base.md#%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
  - Если пользватель неавторизован
-   - название вкладки отображается как "<название товара> - Отзыв, Reazon"  
    - открывается страница на которой содержится ссылка на [логин](https://www.reazon.ru/login)
+
 ### Создание отзыва
 ![image](https://user-images.githubusercontent.com/57019979/222456421-d88e3910-3d91-4f14-8b2f-f6565cfdc1d8.png)
  - Выбор рейтинга
@@ -97,9 +103,11 @@
   -  Оставленный отзыв совпадает с отображаемым на странице просмотра отзывов
  
  # [Главная](https://www.reazon.ru)
+- Название вкладки 'Главная - Reazon"
  ### Выбор категории
  ![image](https://user-images.githubusercontent.com/57019979/221987159-648372cf-7a26-4ba0-8bf7-31e9f3c3ad1d.png)
       - При клике открывается страница соответствующей категории с URL'ом вида [https://www.reazon.ru/category/[id]](https://www.reazon.ru/category/computers), при этом при переходе по данному URL возвращается код `200`
+  
  ### Карусели
  ![image](https://user-images.githubusercontent.com/57019979/222380917-9cf8b62c-e959-4640-8fa2-12850bff4e7a.png)
    - Аналогично карусели в блоке ["Рекомендации"](https://github.com/tUnknownLegend/TP-QA-HW-1/blob/Base/Base.md#%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8)
