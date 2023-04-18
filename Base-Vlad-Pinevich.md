@@ -12,11 +12,9 @@
 
 # Общие паттерны
 
-- Как проверить авторизирован ли пользователь
-    Ищем элемент с классом `header__right`, в innerHTML ищем элемент `<a  href="/login"></a>`
-
-- Как проверить появление сообщение об ошибке
-    HTML-элемент c `id="header_error-message"` меняет CSS свойство с `display: none;` на `display: flex;`, через три секунды оно меняется обратно. При этом innerText этого элемнта должен быть текст ошибки
+- Как проверять поломано ли фото
+    - Загружаем фото
+    - Статус код должен быть `200`
 
 # [Cтраница товара](https://www.reazon.ru/product/57)
 ### Название товара
@@ -34,10 +32,10 @@
      - Кнопка сожержит "отзыв"
      - Ссылка на страницу отзывов [https://www.reazon.ru/comment/[id]](https://www.reazon.ru/comment/57)
  - Избранное
-     - Если пользователь неавторизирован, то появлется сообщение об [ошибке](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D0%BE%D0%B1%D1%89%D0%B8%D0%B5-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD%D1%8B), текст ошибки "Войдите, чтобы добавить в избранное".
+     - Если пользователь неавторизирован, то появлется сообщение об ошибке с текстом "Войдите, чтобы добавить в избранное".
      - Если пользователь авторизирован
-         - И HTML-елемент с `id="favourite-opt_cart"` имеет атрибут `checked === true`, то переходим на [страницу избранного](https://www.reazon.ru/user/favorites) и проверяем наличие ссылки вида [https://www.reazon.ru/product/[id]](https://www.reazon.ru/product/57) в одном из дочерних элементов с `id="items-block"`
-         - И HTML-елемент с `id="favourite-opt_cart"` имеет атрибут `checked === false`, то переходим на [страницу избранного](https://www.reazon.ru/user/favorites) и проверяем отсутствие ссылки вида [https://www.reazon.ru/product/[id]](https://www.reazon.ru/product/57) в одном из дочерних элементов с `id="items-block"`
+         - И товар добавлен в избранное, то проверяем наличие товара на странице [избранное](https://www.reazon.ru/user/favorites)
+         - И товар не добавлен в избранное, то проверяем осутствие товара на странице [избранное](https://www.reazon.ru/user/favorites)
 ### Описание товара и фото
   ![item-description](https://user-images.githubusercontent.com/57019979/221987871-11bd5b29-3e96-49d5-9682-48194dae6781.png)
   - Проверка, что фото товара не сломано
@@ -52,7 +50,7 @@
      - Для проверки находится ли товар в корзине переходим на [страницу корзины](https://www.reazon.ru/cart) и проверяем наличие ссылки вида [https://www.reazon.ru/product/[id]](https://www.reazon.ru/product/57) в одном из дочерних элементов с `id="block-products"
 ### Рекомендации
 ![carousel](https://user-images.githubusercontent.com/57019979/221987919-3cba6090-522d-4bfb-905e-9b9572ccc0b2.png)
-  - Карусель с каротчками товара (id="content__horizontal-scroll_item-card__recommendation")
+  - Карусель с каротчками товара 
     - Проверяем, что первый дочерний элемент виден, послендний не виден
     - Нажимаем 10 раз кнопку со стрелкой справа
     - Проверяем, что первый дочерний элемент не виден, послендний виден
@@ -90,7 +88,7 @@
       - Полностью аналогичен блоку ["Название товара"](https://github.com/tUnknownLegend/TP-QA-HW-1/blob/Base/Base.md#%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
  - Если пользватель неавторизован
    - название вкладки отображается как "<название товара> - Отзыв, Reazon"  
-   - открывается страница на которой содержится элемент с `id="content-unAuth-page-redirect"` и ссылкой на [логин](https://www.reazon.ru/login)
+   - открывается страница на которой содержится ссылка на [логин](https://www.reazon.ru/login)
 ### Создание отзыва
 ![image](https://user-images.githubusercontent.com/57019979/222456421-d88e3910-3d91-4f14-8b2f-f6565cfdc1d8.png)
  - Выбор рейтинга
@@ -110,8 +108,8 @@
 ![image](https://user-images.githubusercontent.com/57019979/221990770-23311a5a-be0d-4764-b995-568764dbeee6.png)
 - Логотип кликабельный, ведет на [главную страницу](https://www.reazon.ru/)
 - Кнопка категории `id="header__dropdown__content"`
-   - При нажатии класс меняется с `header__dropdown__content` на `header__dropdown__content header__dropdown__content-visible`
-   - При нажатии на одну из категорий происходит аналогично [блоку выбора категории](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8) на главной странице
+   - При нажатии отрывается гамбургер меню
+   - При нажатии на одну из категорий в меню происходит аналогично [блоку выбора категории](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8) на главной странице
 - Поисковая строка
   - Если поисковой запрос содержит менее 3 символов, то появляется сообщение об [ошибке]() с текстом "Введите не меньше 3 символов" при нажатии на кнопку поиска
   - Допускаются латинские и кириллические буквы, цифры и символы !?()_./-
