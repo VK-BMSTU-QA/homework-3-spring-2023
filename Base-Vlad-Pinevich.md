@@ -3,12 +3,12 @@
 ### Проект [Reazon](https://reazon.ru)
 
 Тестируемые разделы:
-1. Главная
-2. Хедер
-3. Футер
-4. Страница товара
-5. Страница просмотра отзывов
-6. Страница написания отзыва
+1. [Страница товара](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#c%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
+2. [Страница просмотра отзывов](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#c%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0-%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B0-%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D0%BE%D0%B2)
+3. [Страница написания отзыва](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#c%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0-%D0%BD%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D0%B0)
+4. [Главная](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F)
+5. [Хедер](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D1%85%D0%B5%D0%B4%D0%B5%D1%80)
+6. [Футер](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D1%84%D1%83%D1%82%D0%B5%D1%80)
 
 # Общие паттерны
 
