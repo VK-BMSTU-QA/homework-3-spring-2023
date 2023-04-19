@@ -3,7 +3,7 @@
 ### Проект [Reazon](https://reazon.ru)
 
 Тестируемые разделы:
-1. [Страница профиля](https://github.com/thelvv/homework-3-spring-2023/blob/main/Base-Alexander-Fedorov.md#страница-профиля)
+1. [Страница профиля](https://github.com/thelvv/homework-3-spring-2023/blob/main/Base-Alexander-Fedorov.md#c%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0-%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D1%8F)
 
 # [Cтраница профиля](https://www.reazon.ru/user)
 Креды для авторизации: test@test.test 123456
