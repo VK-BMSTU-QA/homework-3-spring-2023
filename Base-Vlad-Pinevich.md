@@ -62,7 +62,7 @@
         - Если данный пользователь уже оставлял отзыв на данный товар, то появляется сообщение об [ошибке](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D0%BE%D0%B1%D1%89%D0%B8%D0%B5-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD%D1%8B) "Вы уже создали отзыв об этом товаре"
       - Если пользователь неавторизован
         - Открывается страница написания отзыва с URL'ом вида [https://www.reazon.ru/addcomment/[id]](https://www.reazon.ru/addcomment/50)
- 2. Проверка поломоннасти аватаров
+ 2. Проверка поломонности аватаров
 
 # [Cтраница написания отзыва](https://www.reazon.ru/addcomment/214)
 
