@@ -69,7 +69,7 @@
 1. Название вкладки имеет формат '<название товара> - Отзывы, Reazon"
 
 ### Название товара
- 1. Полностью аналогичен блоку ["Название товара"](https://github.com/tUnknownLegend/TP-QA-HW-1/blob/Base/Base.md#%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
+ 1. Полностью аналогичен блоку ["Название товара"](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
  
  2. Если пользватель неавторизован открывается страница на которой содержится ссылка на [логин](https://www.reazon.ru/login)
 
