@@ -3,7 +3,7 @@
 ### Проект [Reazon](https://reazon.ru)
 
 Тестируемые разделы:
-1. [Страница корзины]()
+1. [Страница корзины](https://github.com/Liza1040/homework-3-spring-2023/blob/main/Base-Liza-Maksimova.md?plain=1#L8)
 
 # [Cтраница корзины](https://www.reazon.ru/cart)
 ## Если корзина пустая:
