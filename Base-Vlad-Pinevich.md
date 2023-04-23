@@ -42,9 +42,9 @@
       - Фото не сломано
       - В элементе с название товара содержится ссылка формата [https://www.reazon.ru/product/[id]](https://www.reazon.ru/product/57)
       - Кнопка в корзину
-        - Аналогично блоку ["Цена и добавление в корзину"](https://github.com/tUnknownLegend/check-list-TP/blob/Base/Base.md#%D1%86%D0%B5%D0%BD%D0%B0-%D0%B8-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%83)
+        - Аналогично блоку ["Цена и добавление в корзину"](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D1%86%D0%B5%D0%BD%D0%B0-%D0%B8-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%83)
       - Звездочка с оценкой товара
-         - поведение аналогично блоку ["Название товара"](https://github.com/tUnknownLegend/check-list-TP/blob/Base/Base.md#%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
+         - поведение аналогично блоку ["Название товара"](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0)
         
 # [Cтраница просмотра отзывов](https://www.reazon.ru/comment/43)
 
@@ -53,7 +53,7 @@
  1. Фото товара не сломано
  2. При клике на фото открывается страница товара с ссылкой вида [https://www.reazon.ru/product/[id]](https://www.reazon.ru/product/43)
  3. Кнопка в корзину
-    - Аналогично блоку ["Цена и добавление в корзину"](https://github.com/tUnknownLegend/check-list-TP/blob/Base/Base.md#%D1%86%D0%B5%D0%BD%D0%B0-%D0%B8-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%83)
+    - Аналогично блоку ["Цена и добавление в корзину"](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D1%86%D0%B5%D0%BD%D0%B0-%D0%B8-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%83)
 
 ### Отзывы
  1. Кнопка оставить отзыв
@@ -85,7 +85,7 @@
  1. При клике открывается страница соответствующей категории с URL'ом вида [https://www.reazon.ru/category/[id]](https://www.reazon.ru/category/computers), при этом при переходе по данному URL возвращается код `200`
   
  ### Карусели
- 1. Аналогично карусели в блоке ["Рекомендации"](https://github.com/tUnknownLegend/TP-QA-HW-1/blob/Base/Base.md#%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8)
+ 1. Аналогично карусели в блоке ["Рекомендации"](https://github.com/tUnknownLegend/check-list-TP/blob/main/Base-Vlad-Pinevich.md#%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8)
 
 # Хедер
 1. Логотип кликабельный, ведет на [главную страницу](https://www.reazon.ru/)
