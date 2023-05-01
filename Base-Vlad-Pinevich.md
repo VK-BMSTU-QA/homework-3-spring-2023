@@ -15,7 +15,7 @@
 По умолчанию считается, что для проверки не требуется авторизация, если не указано обратное.
 
 Credentials:
- - login: `test@example.com`
+ - login: `basetest@example.com`
  - password: `ka@ld34o(12Cafk`
 
 # [Cтраница товара](https://www.reazon.ru/product/57)
