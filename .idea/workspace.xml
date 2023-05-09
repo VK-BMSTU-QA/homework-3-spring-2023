@@ -13,11 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd8d60d0-3920-4510-bff2-e32b834006bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/homework-3-spring-2023.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BugOverload-Alexander-Anofrikov.md" beforeDir="false" afterPath="$PROJECT_DIR$/BugOverload-Alexander-Anofrikov.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <workItem from="1682939993085" duration="19000" />
       <workItem from="1683369216167" duration="1556000" />
       <workItem from="1683478028413" duration="1666000" />
-      <workItem from="1683630422320" duration="386000" />
+      <workItem from="1683630422320" duration="1873000" />
     </task>
     <servers />
   </component>
